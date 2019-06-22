@@ -6,6 +6,7 @@ module.exports = {
         '/docs/',
       ]
     },
+     plugins: ['@vuepress/pwa'],
     postcss: {
         plugins: [
             require("tailwindcss")("./tailwind.config.js"),
