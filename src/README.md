@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: Hero Title
-tagline: Hero subtitle
+heroText: Vuepress Tailwind Starter
+tagline: Simple starter with Tailwind CSS
 actionText: Get Started →
 actionLink: /docs/
 features:
@@ -13,6 +13,7 @@ features:
   details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
 footer: MIT Licensed | Copyright © 2019-present Evan You
 ---
+[test](www.google.fr)
 
 Hello Vuepres
 

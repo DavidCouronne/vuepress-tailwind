@@ -1,6 +1,6 @@
 <template>
   <main class="home" aria-labelledby="main-title">
-    <header class="hero bg-background-primary">
+    <header class="hero text-primary bg-background-primary">
       <img
         v-if="data.heroImage"
         :src="$withBase(data.heroImage)"
@@ -9,7 +9,7 @@
 
       <h1 v-if="data.heroText !== null" id="main-title">{{ data.heroText || $title || 'Hello' }}</h1>
 
-      <p class="description">
+      <p class="description opacity-75">
         {{ data.tagline || $description || 'Welcome to your VuePress site' }}
       </p>
 
@@ -18,10 +18,10 @@
         v-if="data.actionText && data.actionLink"
       >
         <NavLink
-          class="action-button"
+          class="action-button text-bg bg-background-accent hover:bg-linkhover"
           :item="actionLink"
         />
-      </p>
+      </p> 
     </header>
 
     <div
@@ -29,7 +29,7 @@
       v-if="data.features && data.features.length"
     >
       <div
-        class="feature"
+        class="feature p-4"
         v-for="(feature, index) in data.features"
         :key="index"
       >
@@ -91,19 +91,18 @@ export default {
       max-width 35rem
       font-size 1.6rem
       line-height 1.3
-      color lighten($textColor, 40%)
+      
     .action-button
       display inline-block
       font-size 1.2rem
-      color $backgroundColor
-      background-color $accentColor
+      
+      
       padding 0.8rem 1.6rem
       border-radius 4px
       transition background-color .1s ease
       box-sizing border-box
       border-bottom 1px solid darken($accentColor, 10%)
-      &:hover
-        background-color lighten($accentColor, 10%)
+      
   .features
     border-top 1px solid $borderColor
     padding 1.2rem 0
@@ -122,15 +121,12 @@ export default {
       font-weight 500
       border-bottom none
       padding-bottom 0
-      color lighten($textColor, 10%)
-    p
-      color lighten($textColor, 25%)
+      
   .footer
     padding 2.5rem
     border-top 1px solid $borderColor
     text-align center
-    color lighten($textColor, 25%)
-
+    
 @media (max-width: $MQMobile)
   .home
     .features

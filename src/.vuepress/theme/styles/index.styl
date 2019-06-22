@@ -12,8 +12,7 @@
 @require './wrapper'
 @require './toc'
 
-html, body
-  background-color $backgroundColor
+
 
 body
   -webkit-font-smoothing antialiased
@@ -30,7 +29,6 @@ body
   left 0
   right 0
   height $navbarHeight
-  background-color $backgroundColor
   box-sizing border-box
   border-bottom 1px solid $borderColor
 
@@ -80,12 +78,9 @@ body
   img
     max-width 100%
 
-a
-  font-weight 500
-  color $accentColor
-  text-decoration none
 
-p a code
+
+p  code
   font-weight 400
   color $accentColor
 

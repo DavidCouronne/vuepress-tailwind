@@ -12,10 +12,12 @@ $contentClass = '.theme-default-content'
   --bg-color: #F3F7F9;
   --bg-content-color: #fff;
   --bg-code: #fffbf3;
+  --border-color:  rgba(0,0,0,.1);
   --body-color: #444;
   --title-color: #111;
   --link-color: #6b17e6;
-  --border-color:  rgba(0,0,0,.1);
+  --link-hover: #6b17e8;
+  
 }
 
 .theme-dark {
@@ -26,4 +28,15 @@ $contentClass = '.theme-default-content'
   --body-color: #ced8de;
   --title-color: #fff;
   --link-color: #af9cef;
+  --link-hover: #ae9aef;
 }
+
+a {
+  color: var(--link-color);
+  -webkit-transition: opacity .2s;
+  transition: opacity .2s;
+}
+
+a:hover {
+  opacity: .8;
+} 
