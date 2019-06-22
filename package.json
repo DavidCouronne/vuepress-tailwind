@@ -5,6 +5,10 @@
   "main": "index.js",
   "author": "David Couronné",
   "license": "MIT",
+  "scripts": {
+    "develop": "vuepress dev src",
+    "build": "vuepress build src"
+  },
   "dependencies": {
     "vuepress": "^1.0.0-rc.1"
   },

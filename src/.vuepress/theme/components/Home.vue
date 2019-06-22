@@ -1,6 +1,6 @@
 <template>
   <main class="home" aria-labelledby="main-title">
-    <header class="hero">
+    <header class="hero bg-background-primary">
       <img
         v-if="data.heroImage"
         :src="$withBase(data.heroImage)"
@@ -25,7 +25,7 @@
     </header>
 
     <div
-      class="features"
+      class="features bg-background-content"
       v-if="data.features && data.features.length"
     >
       <div

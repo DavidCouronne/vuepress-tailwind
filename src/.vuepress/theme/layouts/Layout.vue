@@ -1,6 +1,7 @@
 <template>
+<div :class="theme">
   <div
-    class="theme-container"
+    class="theme-container bg-background-primary text-primary"
     :class="pageClasses"
     @touchstart="onTouchStart"
     @touchend="onTouchEnd"
@@ -45,6 +46,7 @@
       />
     </Page>
   </div>
+  </div>
 </template>
 
 <script>
@@ -59,7 +61,8 @@ export default {
 
   data () {
     return {
-      isSidebarOpen: false
+      isSidebarOpen: false,
+      theme: 'theme-dark',
     }
   },
 

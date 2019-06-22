@@ -1,0 +1,42 @@
+.theme-vuepress {
+  --link-color: #3eaf7c;
+  --body-color: #2c3e50;
+  --border-color: #eaecef;
+  --bg-code: #282c34;
+  --arrow-bg-color: #ccc;
+}
+
+.theme-light {
+  --bg-color: #F3F7F9;
+  --bg-content-color: #fff;
+  --bg-code: #fffbf3;
+  --body-color: #444;
+  --title-color: #111;
+  --link-color: #6b17e6;
+  --border-color:  rgba(0,0,0,.1);
+}
+
+.theme-dark {
+  --bg-color: #0D2538;
+  --bg-content-color: #0f2d44;
+  --bg-code: rgba(0,0,0,.3);
+  --border-color:  rgba(255,255,255,.1);
+  --body-color: #ced8de;
+  --title-color: #fff;
+  --link-color: #af9cef;
+}
+
+/* .nav__link {
+  margin-left: 20px;
+}
+
+a:not(.button) {
+  color: var(--link-color);
+  -webkit-transition: opacity .2s;
+  transition: opacity .2s;
+}
+
+a:not(.button):hover {
+  opacity: .8;
+} */
+/*# sourceMappingURL=main.css.map */
