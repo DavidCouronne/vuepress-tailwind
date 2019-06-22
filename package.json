@@ -1,0 +1,14 @@
+{
+  "name": "vuepress-tailwind",
+  "version": "0.0.1",
+  "description": "vuepress tailwind css",
+  "main": "index.js",
+  "author": "David Couronné",
+  "license": "MIT",
+  "dependencies": {
+    "vuepress": "^1.0.0-rc.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^1.0.4"
+  }
+}
