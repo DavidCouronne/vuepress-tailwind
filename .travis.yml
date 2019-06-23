@@ -3,15 +3,17 @@ node_js:
   - "12.4.0"
   - "node"
 
+cache:
+  directories:
+    - "node_modules"
+
+branches:
+  only:
+  - master
+
 install:
   - yarn
+  - yarn build
 
-stages:
-  - build
-jobs:
-  include:
-    - stage: build
-      script:
-        # Build all
-        - yarn build
-        
+script:
+  - echo "Skipping tests"
