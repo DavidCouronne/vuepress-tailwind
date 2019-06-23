@@ -13,5 +13,5 @@ jobs:
     - stage: build
       script:
         # Build all
-        - yarn develop
+        - yarn build
         
