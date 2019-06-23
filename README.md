@@ -1,8 +1,10 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6a345131-c86a-4200-bc5d-4200e8e569d8/deploy-status)](https://app.netlify.com/sites/vuepress-tailwind/deploys)
+
 # Vuepress Tailwind CSS starter
 
 A simple Vuepress starter
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6a345131-c86a-4200-bc5d-4200e8e569d8/deploy-status)](https://app.netlify.com/sites/vuepress-tailwind/deploys)
+
 
 <!-- Markdown snippet -->
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/DavidCouronne/vuepress-tailwind)
