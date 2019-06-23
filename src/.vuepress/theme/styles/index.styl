@@ -43,7 +43,7 @@ body
 
 .sidebar
   font-size 16px
-  background-color #fff
+  
   width $sidebarWidth
   position fixed
   z-index 10
@@ -103,7 +103,13 @@ blockquote
 
 ul, ol
   padding-left 1.2em
+  
 
+ol
+  list-style-type decimal
+
+ul
+  list-style-type disc
 strong
   font-weight 600
 
@@ -197,3 +203,12 @@ th, td
       padding-left 0
 
 @require 'mobile.styl'
+
+@css{
+.icon.outbound {
+  top: -4px;
+  color: var(--text-link);
+  }
+  
+}
+

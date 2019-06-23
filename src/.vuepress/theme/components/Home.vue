@@ -18,7 +18,7 @@
         v-if="data.actionText && data.actionLink"
       >
         <NavLink
-          class="action-button text-bg bg-background-accent hover:bg-linkhover"
+          class="action-button text-bg bg-background-accent hover:bg-linkhover hover:text-bg"
           :item="actionLink"
         />
       </p> 

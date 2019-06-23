@@ -1,6 +1,13 @@
+
+
 module.exports = {
     title: 'Hello VuePress',
     themeConfig: {
+      nav: [
+        { text: 'Home', link: '/' },
+        { text: 'Guide', link: '/content/' },
+        { text: 'External', link: 'https://google.com' },
+      ],
       sidebar: [
         '/',
         '/docs/',
@@ -14,3 +21,5 @@ module.exports = {
           ]
     }
   }
+
+

@@ -11,7 +11,7 @@
   >
     <router-link
       v-if="item.path"
-      class="sidebar-heading clickable"
+      class="sidebar-heading clickable text-primary"
       :class="{
         open,
         'active': isActive($route, item.path)
@@ -29,7 +29,7 @@
 
     <p
       v-else
-      class="sidebar-heading"
+      class="sidebar-heading text-primary"
       :class="{ open }"
       @click="$emit('toggle')"
     >
@@ -97,7 +97,7 @@ export default {
       border-left none
 
 .sidebar-heading
-  color $textColor
+  
   transition color .15s ease
   cursor pointer
   font-size 1.1em

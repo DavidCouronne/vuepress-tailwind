@@ -2,6 +2,7 @@ module.exports = {
   theme: {
     borderColor: {
       'primary': 'var(--border-color)',
+      'accent': 'var(--link-color)',
     },
     extend: {},
     colors: {

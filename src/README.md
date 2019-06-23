@@ -3,7 +3,7 @@ home: true
 heroText: Vuepress Tailwind Starter
 tagline: Simple starter with Tailwind CSS
 actionText: Get Started →
-actionLink: /docs/
+actionLink: /content/
 features:
 - title: Simplicity First
   details: Minimal setup with markdown-centered project structure helps you focus on writing.
