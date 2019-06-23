@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="nav-links"
+    class="nav-links hidden sm:inline-block"
     v-if="userLinks.length || repoLink"
   >
     <!-- user links -->
@@ -117,9 +117,7 @@ export default {
 
 <style>
 
-.nav-links {
-  display: inline-block;
-}
+
 .nav-links a {
   line-height: 1.4rem;
   color: inherit;
@@ -140,13 +138,13 @@ export default {
 .nav-links .repo-link {
   margin-left: 1.5rem;
 }
-@media (max-width: 100px) {
+@media (max-width: 640px) {
   .nav-links .nav-item,
   .nav-links .repo-link {
     margin-left: 0;
   }
 }
-@media (min-width: 100px) {
+@media (min-width: 640px) {
   .nav-links a:hover,
   .nav-links a.router-link-active {
     color: var(--link-color);

@@ -241,4 +241,13 @@ function flatten (items, res) {
       float none
       text-align left
 
+@css {
+  .search-box input {
+    background-color: var(--bg-content);}
+  
+
+  .page-edit .edit-link a {
+   color: var(--body-color);
+   }
+}
 </style>
