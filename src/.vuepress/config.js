@@ -7,11 +7,7 @@ module.exports = {
         { text: 'Home', link: '/' },
         { text: 'Guide', link: '/content/' },
         { text: 'External', link: 'https://google.com' },
-      ],
-      sidebar: [
-        '/',
-        '/docs/',
-      ]
+      ]      
     },
      plugins: ['@vuepress/pwa'],
     postcss: {
