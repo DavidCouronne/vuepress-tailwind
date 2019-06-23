@@ -1,4 +1,5 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6a345131-c86a-4200-bc5d-4200e8e569d8/deploy-status)](https://app.netlify.com/sites/vuepress-tailwind/deploys)
+[![Build Status](https://travis-ci.org/DavidCouronne/vuepress-tailwind.svg?branch=master)](https://travis-ci.org/DavidCouronne/vuepress-tailwind)
 
 # Vuepress Tailwind CSS starter
 
