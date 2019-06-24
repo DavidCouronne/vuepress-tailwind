@@ -5,7 +5,7 @@
 
 A simple Vuepress starter
 
-
+Demo: [https://vuepress-tailwind.netlify.com/](https://vuepress-tailwind.netlify.com/)
 
 <!-- Markdown snippet -->
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/DavidCouronne/vuepress-tailwind)
@@ -43,3 +43,19 @@ yarn upgrade --latest
 - Check out these other Gridsome Starters where I got some ideas from:
     - [Gridsome Starter Blog](https://github.com/gridsome/gridsome-starter-blog) - I got a lot of design inspiration from this starter theme.
     - [Gridsome Portfolio Starter](https://github.com/drehimself/gridsome-portfolio-starter)
+
+# Custom
+
+## Colors
+
+`src/.vuepress/theme/styles/config.styl`
+
+| CSS Variables  | Vuepress Variables | Tailwind            | Note |
+|----------------|--------------------|---------------------|------|
+| --body-color   | $textColor         | primary             |      |
+| --accent-color | $accentColor       | accent              |      |
+| --accent-hover |                    | accenthover         |      |
+| --border-color | $borderColor       | borderColor-primary |      |
+| --bg-color     |                    | background-primary  |      |
+| --bg-content   |                    | background-content  |      |
+| --bg-code      | $codeBgColor       | background-code     |      |

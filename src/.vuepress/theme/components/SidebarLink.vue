@@ -62,7 +62,7 @@ function renderLink (h, to, text, active) {
     },
     class: {
       active,
-      'sidebar-link text-primary font-normal hover:text-link': true
+      'sidebar-link': true
     }
   }, text)
 }
@@ -98,15 +98,21 @@ function renderExternal (h, to, text) {
   font-size 0.95em
 
 a.sidebar-link
+  font-size 1em
+  font-weight 400
   display inline-block
-  
-  
+  color var(--body-color)
+  border-left 0.25rem solid transparent
   padding 0.35rem 1rem 0.35rem 1.25rem
   line-height 1.4
   width: 100%
   box-sizing: border-box
-     
-    
+  &:hover
+    color var(--accent-color)
+  &.active
+    font-weight 600
+    color var(--accent-color)
+    border-left-color var(--accent-color)
   .sidebar-group &
     padding-left 2rem
   .sidebar-sub-headers &
@@ -115,16 +121,4 @@ a.sidebar-link
     border-left none
     &.active
       font-weight 500
-
-@css {
-  a.sidebar-link.active {
-    margin-left: 1em;
-    border-left: 0.25rem solid transparent;
-    border-color: var(--text-link);
-    padding-left: 1em;
-@apply text-link;
-@apply font-semibold;
-
-  }
-  }
 </style>

@@ -1,15 +1,17 @@
 ---
-sidebar: auto
+title: Get Started
 ---
 
-# Vuepress Tailwind CSS starter
+## Vuepress Tailwind CSS starter
 
 A simple Vuepress starter with Tailwind CSS
 
+Demo: [https://vuepress-tailwind.netlify.com/](https://vuepress-tailwind.netlify.com/)
+
+
 ## Features
 
-
-- [Tailwind CSS v1.0](https://tailwindcss.com) 
+- [Tailwind CSS v1.x](https://tailwindcss.com) 
 - Theme Switcher with Dark Mode
 - [@vuepress/plugin-pwa](https://v1.vuepress.vuejs.org/plugin/official/plugin-pwa.html)
 
@@ -40,6 +42,7 @@ yarn upgrade --latest
     - [Gridsome Starter Blog](https://github.com/gridsome/gridsome-starter-blog) - I got a lot of design inspiration from this starter theme.
     - [Gridsome Portfolio Starter](https://github.com/drehimself/gridsome-portfolio-starter)
 
-## Custom
 
-1. colors: `src/.vuepress/theme/styles/config.styl`
+
+
+

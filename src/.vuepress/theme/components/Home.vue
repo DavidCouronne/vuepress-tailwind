@@ -18,7 +18,7 @@
         v-if="data.actionText && data.actionLink"
       >
         <NavLink
-          class="action-button text-bg bg-background-accent hover:bg-linkhover hover:text-bg"
+          class="action-button text-bg bg-background-accent hover:bg-accenthover hover:text-bg"
           :item="actionLink"
         />
       </p> 
@@ -104,7 +104,7 @@ export default {
       border-bottom 1px solid darken($accentColor, 10%)
       
   .features
-    border-top 1px solid $borderColor
+    border-top 1px solid var(--border-color)
     padding 1.2rem 0
     margin-top 2.5rem
     display flex
@@ -124,7 +124,7 @@ export default {
       
   .footer
     padding 2.5rem
-    border-top 1px solid $borderColor
+    border-top 1px solid var(--border-color)
     text-align center
     
 @media (max-width: $MQMobile)

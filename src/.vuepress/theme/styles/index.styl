@@ -17,7 +17,7 @@
 body
   -webkit-font-smoothing antialiased
   -moz-osx-font-smoothing grayscale
-  color $textColor
+  color var(--body-color)
 
 .page
   padding-left $sidebarWidth
@@ -30,7 +30,7 @@ body
   right 0
   height $navbarHeight
   box-sizing border-box
-  border-bottom 1px solid $borderColor
+  border-bottom 1px solid var(--border-color)
 
 .sidebar-mask
   position fixed
@@ -52,7 +52,7 @@ body
   left 0
   bottom 0
   box-sizing border-box
-  border-right 1px solid $borderColor
+  border-right 1px solid var(--border-color)
   overflow-y auto
 
 {$contentClass}:not(.custom)
@@ -138,7 +138,7 @@ h1
 h2
   font-size 1.65rem
   padding-bottom .3rem
-  border-bottom 1px solid $borderColor
+  border-bottom 1px solid var(--border-color)
 
 h3
   font-size 1.35rem
@@ -162,7 +162,7 @@ p, ul, ol
 
 hr
   border 0
-  border-top 1px solid $borderColor
+  border-top 1px solid var(--border-color)
 
 table
   border-collapse collapse
@@ -174,7 +174,7 @@ tr
   border-top 1px solid #dfe2e5
 
   &:nth-child(2n)
-    background-color #f6f8fa
+    background-color var(--bg-color)
 
 th, td
   border 1px solid #dfe2e5
@@ -207,7 +207,8 @@ th, td
 @css{
 .icon.outbound {
   top: -4px;
-  color: var(--text-link);
+  color: var(--body-color);
+  opacity: 0.8;
   }
  
 }

@@ -1,5 +1,5 @@
 <template>
-  <aside class="sidebar bg-background-content">
+  <aside class="sidebar">
     <NavLinks/>
     <slot name="top"/>
     <SidebarLinks :depth="0" :items="items"/>
@@ -22,6 +22,7 @@ export default {
 
 <style lang="stylus">
 .sidebar
+  background-color var(--bg-content-color)
   ul
     padding 0
     margin 0
@@ -30,7 +31,7 @@ export default {
     display inline-block
   .nav-links
     display none
-    border-bottom 1px solid $borderColor
+    border-bottom 1px solid var(--border-color)
     padding 0.5rem 0 0.75rem 0
     a
       font-weight 600

@@ -1,6 +1,6 @@
 <template>
   <router-link
-    class="text-primary hover:text-link active:text-link"
+    class="text-primary hover:text-accent active:text-accent"
     :to="link"
     v-if="!isExternal(link)"
     :exact="exact"

@@ -124,7 +124,7 @@ export default {
 }
 .nav-links a:hover,
 .nav-links a.router-link-active {
-  color: var(--link-color);
+  color: var(--accent-color);
 }
 .nav-links .nav-item {
   position: relative;
@@ -147,13 +147,13 @@ export default {
 @media (min-width: 640px) {
   .nav-links a:hover,
   .nav-links a.router-link-active {
-    color: var(--link-color);
+    color: var(--accent-color);
   }
   .nav-item > a:not(.external):hover,
   .nav-item > a:not(.external).router-link-active {
     margin-bottom: -2px;
     border-bottom: 2px solid;
-    border-color: var(--link-color);
+    border-color: var(--accent-color);
   }
 }
 

@@ -1,6 +1,6 @@
 {
   "name": "vuepress-tailwind",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "vuepress tailwind css",
   "main": "index.js",
   "author": "David Couronné",
@@ -10,10 +10,10 @@
     "build": "vuepress build src"
   },
   "dependencies": {
-    "vuepress": "^1.0.0-rc.1"
+    "vuepress": "^1.0.2"
   },
   "devDependencies": {
-    "@vuepress/plugin-pwa": "^1.0.0-rc.1",
+    "@vuepress/plugin-pwa": "^1.0.2",
     "tailwindcss": "^1.0.4"
   }
 }
