@@ -28,7 +28,7 @@ module.exports = {
     sidebar: {
       '/content/': [
         '',
-        '/content/custom'
+        'custom'
       ]
     }
   },
