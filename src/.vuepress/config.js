@@ -24,6 +24,7 @@ module.exports = {
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/content/' },
+      { text: 'Blog', link: '/blog/'},
     ],
     sidebar: {
       '/content/': [
@@ -32,7 +33,8 @@ module.exports = {
       ]
     }
   },
-  plugins: ['@vuepress/pwa'],
+  plugins: ['@vuepress/pwa',
+  'vuepress-plugin-reading-time'],
   evrgreen: true,
   postcss: {
     plugins: [

@@ -43,8 +43,7 @@ export default {
   data() {
     return {
       isSidebarOpen: false,
-      theme: "theme-light",
-      themeDark: "false"
+      theme: ""
     };
   },
 
@@ -96,6 +95,7 @@ export default {
   },
 
   mounted() {
+    this.theme = localStorage.getItem('theme') || 'theme-light';
     this.$router.afterEach(() => {
       this.isSidebarOpen = false;
     });
