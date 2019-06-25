@@ -16,8 +16,4 @@ features:
 footer: MIT Licensed | Copyright © 2019-present David Couronné
 ---
 
-## Vuepress Tailwind CSS starter
 
-A simple Vuepress starter with Tailwind CSS
-
-Demo: [https://vuepress-tailwind.netlify.com/](https://vuepress-tailwind.netlify.com/)

@@ -11,7 +11,6 @@
     <div>
       <div class="flex-grow">
         <div v-for="post in posts" class="mb-12 bg-background-content p-4 rounded-lg shadow-lg">
-          <!-- <img class="w-full" src="https://res.cloudinary.com/dpw19qolx/image/upload/c_crop,q_auto/v1549194480/samples/landscapes/landscape-panorama.jpg" alt="Sunset in the mountains"> -->
           <span class="text-3xl font-bold">
             <router-link :to="post.path" class="text-primary pb-1">{{ post.title}}</router-link>
           </span>
@@ -20,9 +19,10 @@
             <span>&middot;</span>
             <span>{{post.readingTime.text}}</span>
             <span class="px-6 py-4">
-              <span v-for="tag in post.frontmatter.tags"
+              <span
+                v-for="tag in post.frontmatter.tags"
                 class="inline-block bg-background-primary rounded-full px-3 py-1 text-sm font-semibold text-primary mr-2"
-              > #{{ tag }}</span>
+              >#{{ tag }}</span>
             </span>
           </div>
           <div class="text-lg mb-4">{{post.frontmatter.description}}</div>
@@ -30,18 +30,14 @@
             <router-link :to="post.path" class="font-bold uppercase">Read More</router-link>
           </div>
         </div>
-        
       </div>
     </div>
-    
 
     <footer class="text-primary bg-background-content px-4">
       <div class="container mx-auto flex flex-col lg:flex-row items-center justify-between py-8">
         <div class="mb-8 lg:mb-0">
           <div>Copyright 2019.</div>
-          
         </div>
-        
       </div>
     </footer>
   </main>
@@ -113,13 +109,7 @@ export default {
       font-size: 1.6rem;
       line-height: 1.3;
     }
-
-    
   }
-
-  
-
-  
 
   .footer {
     padding: 2.5rem;
@@ -127,8 +117,6 @@ export default {
     text-align: center;
   }
 }
-
-
 
 @media (max-width: $MQMobileNarrow) {
   .home {
@@ -152,11 +140,7 @@ export default {
       .description {
         font-size: 1.2rem;
       }
-
-      
     }
-
-    
   }
 }
 </style>

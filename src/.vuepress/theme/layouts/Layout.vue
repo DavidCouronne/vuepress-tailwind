@@ -97,7 +97,7 @@ export default {
   },
 
   mounted() {
-    this.theme = localStorage.getItem('theme') || 'theme-light';
+    this.theme = localStorage.getItem("theme") || "theme-light";
     this.$router.afterEach(() => {
       this.isSidebarOpen = false;
     });

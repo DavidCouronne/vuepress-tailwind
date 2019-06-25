@@ -24,7 +24,7 @@ module.exports = {
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/content/' },
-      { text: 'Blog', link: '/blog/'},
+      { text: 'Blog', link: '/blog/' },
     ],
     sidebar: {
       '/content/': [
@@ -33,8 +33,15 @@ module.exports = {
       ]
     }
   },
-  plugins: ['@vuepress/pwa',
-  'vuepress-plugin-reading-time',
+  plugins: [
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': '' // UA-00000000-0
+      }
+    ],
+    '@vuepress/pwa',
+    'vuepress-plugin-reading-time',
   ],
   evergreen: true,
   postcss: {
