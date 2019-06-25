@@ -21,7 +21,7 @@
       </Sidebar>
 
       <Home v-if="$page.frontmatter.home"/>
-      <BlogPage v-else v-if="$page.frontmatter.blogpage"/>
+      <BlogPage v-else-if="$page.frontmatter.blogpage"/>
 
       <Page v-else :sidebar-items="sidebarItems">
         <slot name="page-top" slot="top"/>

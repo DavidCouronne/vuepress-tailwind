@@ -15,3 +15,9 @@ features:
   details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
 footer: MIT Licensed | Copyright © 2019-present David Couronné
 ---
+
+## Vuepress Tailwind CSS starter
+
+A simple Vuepress starter with Tailwind CSS
+
+Demo: [https://vuepress-tailwind.netlify.com/](https://vuepress-tailwind.netlify.com/)
