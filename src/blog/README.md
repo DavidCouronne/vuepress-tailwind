@@ -1,11 +1,8 @@
 ---
-layout: BlogLayout
+title: Blog Page
+herotext: Blog List
+blogpage: true
 blog_index: true
 ---
 
-## Customize
-
-`.vuepress/components/BlogLayout.vue`
-
-## Liste des blogs
 
