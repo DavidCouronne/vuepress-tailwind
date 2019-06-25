@@ -207,14 +207,16 @@ function flatten (items, res) {
   .edit-link
     display inline-block
     a
-      color lighten($textColor, 25%)
+      color var(--body-color)
+      opacity .75
       margin-right 0.25rem
   .last-updated
     float right
     font-size 0.9em
     .prefix
       font-weight 500
-      color lighten($textColor, 25%)
+      color var(--body-color)
+      opacity .75
     .time
       font-weight 400
       color #aaa
@@ -240,14 +242,4 @@ function flatten (items, res) {
       font-size .8em
       float none
       text-align left
-
-@css {
-  .search-box input {
-    background-color: var(--bg-content);}
-  
-
-  .page-edit .edit-link a {
-   color: var(--body-color);
-   }
-}
 </style>

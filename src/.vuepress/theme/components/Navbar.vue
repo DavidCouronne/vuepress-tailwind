@@ -43,7 +43,7 @@
 
 <script>
 import AlgoliaSearchBox from '@AlgoliaSearchBox'
-import SearchBox from '@SearchBox'
+import SearchBox from '@theme/components/SearchBox.vue'
 import SidebarButton from '@theme/components/SidebarButton.vue'
 import NavLinks from '@theme/components/NavLinks.vue'
 
@@ -145,3 +145,4 @@ $navbar-horizontal-padding = 1.5rem
     .links
       padding-left 1.5rem
 </style>
+

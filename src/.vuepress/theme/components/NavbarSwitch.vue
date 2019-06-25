@@ -150,13 +150,5 @@ $navbar-horizontal-padding = 1.5rem;
   }
 }
 
-@css {
-  .search-box input {
-    background-color: var(--bg-content);}
-  
 
-  .page-edit .edit-link a {
-   color: var(--body-color);
-   }
-}
 </style>

@@ -1,5 +1,6 @@
 ---
 title: Custom
+description: Simple description
 ---
 
 ## Colors

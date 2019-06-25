@@ -1,5 +1,6 @@
 ---
 title: Get Started
+description: Simple description
 ---
 
 ## Vuepress Tailwind CSS starter

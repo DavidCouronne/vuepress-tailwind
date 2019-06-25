@@ -1,5 +1,7 @@
 ---
 home: true
+description: Simple description
+title: Vuepress
 heroText: Vuepress Tailwind Starter
 tagline: Simple starter with Tailwind CSS
 actionText: Get Started →
