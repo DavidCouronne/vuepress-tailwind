@@ -1,17 +1,5 @@
----
-title: Customize starter blog theme
-date: 2019-06-25
-description: 'How To Customise Blog Landing Page!'
-tags: ['Programming', 'Vuepress', 'Tailwind CSS']
----
-
-## Customize Blog Landing Page
-
-`.vuepress/theme/components/BlogPage.vue`
-
-```js
 <template>
-   <main class="home" aria-labelledby="main-title">  //From Home.vue
+  <main class="home" aria-labelledby="main-title">
     <header class="hero text-primary bg-background-primary">
       <h1 id="main-title">Blog</h1>
 
@@ -23,6 +11,7 @@ tags: ['Programming', 'Vuepress', 'Tailwind CSS']
     <div>
       <div class="flex-grow">
         <div v-for="post in posts" class="mb-12 bg-background-content p-4 rounded-lg shadow-lg">
+          <!-- <img class="w-full" src="https://res.cloudinary.com/dpw19qolx/image/upload/c_crop,q_auto/v1549194480/samples/landscapes/landscape-panorama.jpg" alt="Sunset in the mountains"> -->
           <span class="text-3xl font-bold">
             <router-link :to="post.path" class="text-primary pb-1">{{ post.title}}</router-link>
           </span>
@@ -127,7 +116,7 @@ export default {
 };
 </script>
 
-<style lang="stylus"> // From Home.vue
+<style lang="stylus">
 .home {
   padding: $navbarHeight 2rem 0;
   max-width: 960px;
@@ -204,5 +193,3 @@ export default {
   }
 }
 </style>
-
-```
