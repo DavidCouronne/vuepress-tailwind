@@ -20,18 +20,24 @@
       <div class="flex-grow">
         <div  class="mb-12 bg-background-content p-4 rounded-lg shadow-lg">
             <img class="w-full" src="https://res.cloudinary.com/dpw19qolx/image/upload/c_crop,q_auto/v1549194480/samples/landscapes/landscape-panorama.jpg" alt="Sunset in the mountains">
-          <h2 class="text-3xl font-bold">
-            <g-link to="/h" class="text-primary"> post.title </g-link>
-          </h2>
-          <div class="mb-4 opacity-75">
+          <span class="text-3xl font-bold">
+            <g-link to="/h" class="text-primary pb-1"> post.title </g-link>
+          </span>
+          <div class="mb-4 opacity-75 pt-1">
             <span> formateDate(post.frontmatter.date) </span>
             <span>&middot;</span>
             <span>post.readingTime.text </span>
+            <span class="px-6 py-4">
+    <span class="inline-block bg-background-primary rounded-full px-3 py-1 text-sm font-semibold text-primary mr-2">#photography</span>
+    <span class="inline-block bg-background-primary rounded-full px-3 py-1 text-sm font-semibold text-primary mr-2">#travel</span>
+    <span class="inline-block bg-background-primary rounded-full px-3 py-1 text-sm font-semibold text-primary">#winter</span>
+  </span>
           </div>
           <div class="text-lg mb-4"> post.frontmatter.description</div>
           <div class="mb-8">
             <router-link to="/" class="font-bold uppercase">Read More</router-link>
           </div>
+          
         </div>
         <div  class="mb-12 bg-background-content p-4 rounded-lg">
           <h2 class="text-3xl font-bold">
