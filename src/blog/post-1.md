@@ -1,5 +1,5 @@
 ---
-title: Customize starter blog theme
+title: Customise starter blog theme
 date: 2019-06-25
 description: 'How To Customise Blog Landing Page!'
 tags: ['Programming', 'Vuepress', 'Tailwind CSS']
