@@ -43,7 +43,6 @@ module.exports = {
     '@vuepress/pwa',
     'vuepress-plugin-reading-time',
   ],
-  evergreen: true,
   postcss: {
     plugins: [
       require("tailwindcss")("./tailwind.config.js"),
