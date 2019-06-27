@@ -11,6 +11,29 @@ sidebar: auto
 
 [https://material.io/tools/color/#!/?view.left=1&view.right=0&primary.color=0d2538](https://material.io/tools/color/#!/?view.left=1&view.right=0&primary.color=0d2538)
 
+
+## Theme
+
+```
+<div class="bg-background-primary">
+<span class="text-accent">Accent color</span>
+</div>
+```
+
+<div class="bg-background-primary">
+<span class="text-accent">Accent color</span>
+</div>
+
+```
+<div class="bg-background-primary">
+<span class="text-accent opacity-75">Accent hover opacity .75</span>
+</div>
+```
+
+<div class="bg-background-primary">
+<span class="text-accent opacity-75">Accent hover opacity .75</span>
+</div>
+
 ## Alerts
 
 from [https://tailwindcss.com/components/alerts/](https://tailwindcss.com/components/alerts/)
