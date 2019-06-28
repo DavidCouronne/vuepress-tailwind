@@ -27,6 +27,15 @@
         <slot name="page-top" slot="top"/>
         <slot name="page-bottom" slot="bottom"/>
       </Page>
+
+      <footer class="bg-background-primary text-primary">
+      <div class="container mx-auto flex  content-center">
+        
+          <div></div>
+        
+        
+      </div>
+    </footer>
     </div>
   </div>
 </template>

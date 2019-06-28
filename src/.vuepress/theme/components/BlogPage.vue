@@ -32,14 +32,6 @@
         </div>
       </div>
     </div>
-
-    <footer class="text-primary bg-background-content px-4">
-      <div class="container mx-auto flex flex-col lg:flex-row items-center justify-between py-8">
-        <div class="mb-8 lg:mb-0">
-          <div>Copyright 2019.</div>
-        </div>
-      </div>
-    </footer>
   </main>
 </template>
 

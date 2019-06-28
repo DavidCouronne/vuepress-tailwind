@@ -1,7 +1,7 @@
 ---
 blogpage: true
 title: Blog Start Page
-description: Go to blog list
+description: Welcome To My Blogs
 blog_index: true
 ---
 
