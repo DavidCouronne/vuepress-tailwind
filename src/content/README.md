@@ -15,6 +15,8 @@ Demo: [https://vuepress-tailwind.netlify.com/](https://vuepress-tailwind.netlify
 - [Tailwind CSS v1.x](https://tailwindcss.com) 
 - Theme Switcher with Dark Mode
 - [@vuepress/plugin-pwa](https://v1.vuepress.vuejs.org/plugin/official/plugin-pwa.html)
+- Blog
+- Accordion component
 
 ## Installation
 

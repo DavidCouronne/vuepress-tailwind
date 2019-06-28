@@ -1,5 +1,5 @@
 <template>
-  <div :class="theme">
+  <div class="font-sans" :class="theme">
     <div
       class="theme-container bg-background-primary text-primary"
       :class="pageClasses"

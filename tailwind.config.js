@@ -11,8 +11,6 @@ module.exports = {
       // => @media (min-width: 9594px) { ... }
 
     },
-    borderColors: ["responsive", "hover", "focus", "group-hover"],
-    visibility: ["responsive", "group-hover"],
     borderColor: {
       'primary': 'var(--border-color)',
       'accent': 'var(--accent-color)',
@@ -38,7 +36,33 @@ module.exports = {
       gray: {
         'dark': '#121212'
       }
-    }
+    },
+    fontFamily: {
+      sans: [
+        'Roboto',
+        'Nunito Sans',        
+        '-apple-system',
+        'BlinkMacSystemFont',
+        '"Segoe UI"',
+        '"Helvetica Neue"',
+        'Arial',
+        '"Noto Sans"',
+        'sans-serif',
+        '"Apple Color Emoji"',
+        '"Segoe UI Emoji"',
+        '"Segoe UI Symbol"',
+        '"Noto Color Emoji"',
+      ],
+      serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
+      mono: [
+        'Menlo',
+        'Monaco',
+        'Consolas',
+        '"Liberation Mono"',
+        '"Courier New"',
+        'monospace',
+      ],
+    },
   },
   variants: {},
   plugins: []

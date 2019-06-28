@@ -76,6 +76,9 @@ With Component and Dark Theme:
 ```
 </Accordion>
 
-    
- 
+## Custom Blocks
+
+`/src/.vuepress/theme/styles/index.styl`
+
+> **This is a quote**. Lorem ipsum dolor sit amet, ut alii voluptaria est, ad illum inimicus deterruisset eam. His eu bonorum adipisci definiebas, no vis nostrud conclusionemque. Ad his virtute accusata, pro habemus singulis temporibus ut, ne bonorum dolores euripidis quo. No nam amet erant intellegebat. Rationibus instructior id pri, vis case abhorreant ea, id sea meis feugiat.
 
